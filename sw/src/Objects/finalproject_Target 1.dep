@@ -1,0 +1,112 @@
+Dependencies for Project 'finalproject', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\scarygame.c)(0x6751E02E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/scarygame.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\Texas.h)(0x66FC6051)
+I (..\inc\PLL.h)(0x66FC6051)
+I (..\inc\ST7735.h)(0x66FC6051)
+I (audio.h)(0x6751E38B)
+I (switch.h)(0x6702C185)
+I (..\inc\Timer0A.h)(0x66FC6051)
+I (..\inc\LaunchPad.h)(0x66FC6051)
+I (..\inc\UART.h)(0x66FC6051)
+I (AudioReader.h)(0x6750F3D8)
+I (..\inc\ff.h)(0x66F1F9F3)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\ffconf.h)(0x66F1F9F3)
+I (..\inc\ST7735withSD.h)(0x6721287C)
+I (digitalCompass.h)(0x67515628)
+I (..\inc\I2C0.h)(0x66FC6051)
+I (random.h)(0x674FFBA6)
+I (..\inc\Timer2A.h)(0x671FE504)
+F (.\scarygame.h)(0x6750F447)()
+F (.\audio.c)(0x6751D852)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/audio.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\TLV5616.h)(0x671C03B6)
+I (..\inc\Timer1A.h)(0x66FF2262)
+I (audio.h)(0x6751E38B)
+I (led.h)(0x6702C484)
+I (..\inc\Timer2A.h)(0x671FE504)
+I (..\inc\Timer4A.h)(0x671FE67E)
+I (AudioReader.h)(0x6750F3D8)
+I (..\inc\ff.h)(0x66F1F9F3)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\ffconf.h)(0x66F1F9F3)
+I (..\inc\UART.h)(0x66FC6051)
+F (.\led.c)(0x67059098)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/led.o -MMD)
+I (led.h)(0x6702C484)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (.\switch.c)(0x67194C88)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/switch.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\Timer3A.h)(0x66FF242B)
+I (switch.h)(0x6702C185)
+F (..\inc\Timer1A.c)(0x66FF221F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer1a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\Timer3A.c)(0x66FF24FD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer3a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\startup.s)(0x66FC6051)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup.o)
+F (..\inc\PLL.c)(0x66FC6051)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/pll.o -MMD)
+I (..\inc\..\inc\PLL.h)(0x66FC6051)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\TLV5616.c)(0x67212433)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/tlv5616.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\LaunchPad.c)(0x66FC6051)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/launchpad.o -MMD)
+I (..\inc\..\inc\LaunchPad.h)(0x66FC6051)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\..\inc\CortexM.h)(0x66FC6051)
+F (..\inc\Timer0A.c)(0x66FC6051)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer0a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\..\inc\CortexM.h)(0x66FC6051)
+F (..\inc\ff.c)(0x674D23DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/ff.o -MMD)
+I (..\inc\ff.h)(0x66F1F9F3)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\ffconf.h)(0x66F1F9F3)
+I (..\inc\diskio.h)(0x66F23B00)
+F (..\inc\ST7735withSD.c)(0x674FF5BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/st7735withsd.o -MMD)
+I (..\inc\ST7735withSD.h)(0x6721287C)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\diskio.c)(0x672573E0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/diskio.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\diskio.h)(0x66F23B00)
+F (.\BitmapReader.c)(0x674D32B0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/bitmapreader.o -MMD)
+I (BitmapReader.h)(0x67212E11)
+I (..\inc\ff.h)(0x66F1F9F3)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\ffconf.h)(0x66F1F9F3)
+I (..\inc\diskio.h)(0x66F23B00)
+F (..\inc\Timer2A.c)(0x671FEAE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer2a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (..\inc\Timer2A.h)(0x671FE504)()
+F (..\inc\Timer4A.c)(0x671FEA00)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/timer4a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\Timer4A.h)(0x671FE67E)
+F (..\inc\UART.c)(0x674F5AA4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MMD)
+I (..\inc\..\inc\UART.h)(0x66FC6051)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (.\AudioReader.c)(0x6751DB7E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/audioreader.o -MMD)
+I (AudioReader.h)(0x6750F3D8)
+I (..\inc\ff.h)(0x66F1F9F3)
+I (..\inc\integer.h)(0x66F1F9F3)
+I (..\inc\ffconf.h)(0x66F1F9F3)
+I (audio.h)(0x6751E38B)
+I (..\inc\diskio.h)(0x66F23B00)
+I (..\inc\UART.h)(0x66FC6051)
+I (scarygame.h)(0x6750F447)
+F (.\AudioReader.h)(0x6750F3D8)()
+F (..\inc\I2C0.c)(0x6750EFF2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/i2c0.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x66FC6051)
+F (.\digitalCompass.c)(0x6751E45E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/digitalcompass.o -MMD)
+I (digitalCompass.h)(0x67515628)
+I (..\inc\I2C0.h)(0x66FC6051)
+I (audio.h)(0x6751E38B)
+I (..\inc\tm4c123gh6pm.h)(0x66FC6051)
+I (..\inc\UART.h)(0x66FC6051)
+I (..\inc\PLL.h)(0x66FC6051)
+I (..\inc\LaunchPad.h)(0x66FC6051)
+I (..\inc\ST7735withSD.h)(0x6721287C)
+F (.\random.c)(0x6751D7BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ..-I./RTE/_Target_1-IC:/Users/kanaa/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/kanaa/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/random.o -MMD)
+I (random.h)(0x674FFBA6)
+I (audio.h)(0x6751E38B)
+I (scarygame.h)(0x6750F447)
+F (.\random.h)(0x674FFBA6)()

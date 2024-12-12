@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\scarygame.o"
+".\objects\audio.o"
+".\objects\led.o"
+".\objects\switch.o"
+".\objects\timer1a.o"
+".\objects\timer3a.o"
+".\objects\startup.o"
+".\objects\pll.o"
+".\objects\tlv5616.o"
+".\objects\launchpad.o"
+".\objects\timer0a.o"
+".\objects\ff.o"
+".\objects\st7735withsd.o"
+".\objects\diskio.o"
+".\objects\bitmapreader.o"
+".\objects\timer2a.o"
+".\objects\timer4a.o"
+".\objects\uart.o"
+".\objects\audioreader.o"
+".\objects\i2c0.o"
+".\objects\digitalcompass.o"
+".\objects\random.o"
+--strict --scatter ".\Objects\finalproject.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\finalproject.map" -o .\Objects\finalproject.axf
